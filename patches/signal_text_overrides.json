@@ -1,0 +1,481 @@
+{
+ "version": 1,
+ "overrides": {
+  "en": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Join 10,000+ Entrepreneurs Who Use Postiz",
+    "to": "Join creators and teams who publish with Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz To Grow Their Social Presence",
+    "to": "Pohst Signal: reach your audience beyond social media"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Am I going to be charged by Postiz?",
+    "to": "Am I going to be charged by Pohst Signal?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "To confirm credit card information Postiz will hold $2 and release it immediately, you can cancel your subscription anytime from settings without talking to a person",
+    "to": "Your 7-day free trial starts when you subscribe, and you will not be charged until it ends. To confirm your card, a temporary $2 hold is placed and released immediately. You can cancel anytime from Settings."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Can I trust Postiz?",
+    "to": "Can I trust Pohst Signal?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz is proudly open-source! We believe in an ethical and transparent culture, meaning that Postiz will live forever. You can check out the entire code or use it for personal projects. To view the open-source repository, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">click here</a>.",
+    "to": "Pohst Signal is built on Postiz, open-source software licensed under AGPL-3.0. The source code for our version is publicly available."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz allows you to schedule your posts between different channels.\nA channel is a publishing platform where you can schedule your posts.\nFor example, you can schedule your posts on X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads and Pinterest.",
+    "to": "Pohst Signal lets you schedule posts across many channels from one place. A channel is a platform where your posts are published, for example Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode and Tumblr."
+   }
+  },
+  "ar": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "انضم إلى أكثر من 10,000 رائد أعمال يستخدمون Postiz",
+    "to": "انضم إلى المبدعين والفرق الذين ينشرون باستخدام Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz لتنمية حضورهم على وسائل التواصل الاجتماعي",
+    "to": "Pohst Signal: صل إلى جمهورك خارج وسائل التواصل الاجتماعي"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "هل سيتم تحميلي رسوم من قبل Postiz؟",
+    "to": "هل سيفرض Pohst Signal رسومًا علي؟"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "لتأكيد معلومات بطاقة الائتمان، سيحتجز Postiz مبلغ 2 دولار ويعيده فوراً، يمكنك إلغاء اشتراكك في أي وقت من الإعدادات دون الحاجة للتحدث مع أي شخص.",
+    "to": "تبدأ فترة التجربة المجانية لمدة 7 أيام عند الاشتراك، ولن يتم تحصيل أي رسوم منك حتى تنتهي. لتأكيد بطاقتك، يتم حجز مبلغ مؤقت قدره 2 دولار أمريكي ويُفرج عنه فورًا. يمكنك الإلغاء في أي وقت من الإعدادات."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "هل يمكنني الوثوق بـ Postiz؟",
+    "to": "هل يمكنني الوثوق بـ Pohst Signal؟"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz مفتوح المصدر بكل فخر! نحن نؤمن بثقافة أخلاقية وشفافة، مما يعني أن Postiz سيبقى للأبد. يمكنك الاطلاع على الكود بالكامل أو استخدامه في مشاريعك الشخصية. لعرض مستودع المصدر المفتوح، <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">اضغط هنا</a>.",
+    "to": "Pohst Signal مبني على Postiz، وهو برنامج مفتوح المصدر مرخص بموجب AGPL-3.0. الشيفرة المصدرية لنسختنا متاحة للعامة."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "يتيح لك Postiz جدولة منشوراتك بين قنوات مختلفة.\nالقناة هي منصة نشر يمكنك من خلالها جدولة منشوراتك.\nعلى سبيل المثال، يمكنك جدولة منشوراتك على X، فيسبوك، إنستغرام، تيك توك، يوتيوب، ريديت، لينكدإن، Dribbble، Threads وPinterest.",
+    "to": "يتيح لك Pohst Signal جدولة المنشورات عبر العديد من القنوات من مكان واحد. القناة هي منصة يتم نشر منشوراتك عليها، مثل Reddit وDiscord وTelegram وSlack وWordPress وMedium وDev.to وHashnode وTumblr."
+   }
+  },
+  "bn": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "১০,০০০+ উদ্যোক্তার সঙ্গে Postiz ব্যবহার করুন",
+    "to": "Pohst Signal দিয়ে কনটেন্ট প্রকাশ করা নির্মাতা ও দলগুলোর সাথে যোগ দিন"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz তাদের সামাজিক উপস্থিতি বাড়াতে",
+    "to": "Pohst Signal: সোশ্যাল মিডিয়ার বাইরেও আপনার দর্শকদের কাছে পৌঁছান"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "পোস্টিজ দ্বারা চার্জ করা হবে কি?",
+    "to": "Pohst Signal কি আমার কাছ থেকে চার্জ নেবে?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "ক্রেডিট কার্ডের তথ্য নিশ্চিত করার জন্য Postiz $2 ধরে রাখবে এবং তা সঙ্গে সঙ্গে মুক্তি দেবে, আপনি সেটিংস থেকে যেকোনো সময় কাউকে না বলেই আপনার সাবস্ক্রিপশন বাতিল করতে পারেন",
+    "to": "আপনার ৭ দিনের ফ্রি ট্রায়াল সাবস্ক্রাইব করার সময় শুরু হয় এবং ট্রায়াল শেষ না হওয়া পর্যন্ত আপনার কাছ থেকে কোনো চার্জ নেওয়া হবে না। আপনার কার্ড যাচাই করতে সাময়িকভাবে ২ মার্কিন ডলার হোল্ড করা হয় এবং সঙ্গে সঙ্গে ছেড়ে দেওয়া হয়। আপনি যেকোনো সময় সেটিংস থেকে বাতিল করতে পারেন।"
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "আমি কি Postiz-এ বিশ্বাস করতে পারি?",
+    "to": "আমি কি Pohst Signal-এর উপর ভরসা করতে পারি?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz গর্বের সাথে ওপেন-সোর্স! আমরা নৈতিক ও স্বচ্ছ সংস্কৃতিতে বিশ্বাস করি, যার মানে Postiz চিরকাল টিকে থাকবে। আপনি চাইলে সম্পূর্ণ কোড দেখতে পারেন বা ব্যক্তিগত প্রকল্পে ব্যবহার করতে পারেন। ওপেন-সোর্স রিপোজিটরি দেখতে, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">এখানে ক্লিক করুন</a>।",
+    "to": "Pohst Signal তৈরি হয়েছে Postiz-এর উপর ভিত্তি করে, যা AGPL-3.0 লাইসেন্সপ্রাপ্ত একটি ওপেন-সোর্স সফটওয়্যার। আমাদের সংস্করণের সোর্স কোড সর্বজনীনভাবে উপলব্ধ।"
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz আপনাকে বিভিন্ন চ্যানেলের মধ্যে আপনার পোস্টগুলো সময়সূচি নির্ধারণ করতে দেয়।\nএকটি চ্যানেল হলো এমন একটি প্রকাশনা প্ল্যাটফর্ম যেখানে আপনি আপনার পোস্টগুলো সময়সূচি অনুযায়ী প্রকাশ করতে পারেন।\nউদাহরণস্বরূপ, আপনি X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads এবং Pinterest-এ আপনার পোস্টগুলো সময়সূচি অনুযায়ী প্রকাশ করতে পারেন।",
+    "to": "Pohst Signal দিয়ে আপনি এক জায়গা থেকে অনেক চ্যানেলে পোস্ট সময়সূচি করতে পারেন। চ্যানেল হলো এমন একটি প্ল্যাটফর্ম যেখানে আপনার পোস্ট প্রকাশিত হয়, যেমন Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode এবং Tumblr।"
+   }
+  },
+  "de": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Schließe dich über 10.000 Unternehmern an, die Postiz nutzen",
+    "to": "Schließe dich Creators und Teams an, die mit Pohst Signal veröffentlichen"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz, um ihre Social-Media-Präsenz zu steigern",
+    "to": "Pohst Signal: Erreiche dein Publikum über Social Media hinaus"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Werde ich von Postiz Gebühren berechnet bekommen?",
+    "to": "Wird mir Pohst Signal etwas berechnen?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Um die Kreditkarteninformationen zu bestätigen, wird Postiz 2 $ vorübergehend einbehalten und sofort wieder freigeben. Sie können Ihr Abonnement jederzeit in den Einstellungen kündigen, ohne mit einer Person sprechen zu müssen.",
+    "to": "Deine 7-tägige kostenlose Testphase beginnt mit dem Abonnement, und dir wird erst nach deren Ende etwas berechnet. Zur Bestätigung deiner Karte werden vorübergehend 2 USD reserviert und sofort wieder freigegeben. Du kannst jederzeit in den Einstellungen kündigen."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Kann ich Postiz vertrauen?",
+    "to": "Kann ich Pohst Signal vertrauen?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz ist stolz darauf, Open Source zu sein! Wir glauben an eine ethische und transparente Kultur, was bedeutet, dass Postiz für immer bestehen wird. Du kannst den gesamten Code einsehen oder für persönliche Projekte nutzen. Um das Open-Source-Repository anzusehen, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">klicke hier</a>.",
+    "to": "Pohst Signal basiert auf Postiz, einer Open-Source-Software unter der Lizenz AGPL-3.0. Der Quellcode unserer Version ist öffentlich verfügbar."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz ermöglicht es dir, deine Beiträge auf verschiedenen Kanälen zu planen.\nEin Kanal ist eine Veröffentlichungsplattform, auf der du deine Beiträge planen kannst.\nZum Beispiel kannst du deine Beiträge auf X, Facebook, Instagram, TikTok, YouTube, Reddit, LinkedIn, Dribbble, Threads oder Pinterest planen.",
+    "to": "Mit Pohst Signal planst du Beiträge für viele Kanäle an einem Ort. Ein Kanal ist eine Plattform, auf der deine Beiträge veröffentlicht werden, zum Beispiel Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode und Tumblr."
+   }
+  },
+  "es": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Únete a más de 10,000 emprendedores que usan Postiz",
+    "to": "Únete a creadores y equipos que publican con Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz para hacer crecer su presencia en redes sociales",
+    "to": "Pohst Signal: llega a tu audiencia más allá de las redes sociales"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "¿Me va a cobrar Postiz?",
+    "to": "¿Pohst Signal me va a cobrar?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Para confirmar la información de la tarjeta de crédito, Postiz retendrá $2 y los liberará de inmediato. Puedes cancelar tu suscripción en cualquier momento desde la configuración sin hablar con una persona.",
+    "to": "Tu prueba gratuita de 7 días comienza al suscribirte y no se te cobrará nada hasta que termine. Para confirmar tu tarjeta se realiza una retención temporal de 2 USD que se libera de inmediato. Puedes cancelar en cualquier momento desde Ajustes."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "¿Puedo confiar en Postiz?",
+    "to": "¿Puedo confiar en Pohst Signal?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "¡Postiz es orgullosamente de código abierto! Creemos en una cultura ética y transparente, lo que significa que Postiz vivirá para siempre. Puedes revisar todo el código o usarlo para proyectos personales. Para ver el repositorio de código abierto, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">haz clic aquí</a>.",
+    "to": "Pohst Signal está basado en Postiz, un software de código abierto con licencia AGPL-3.0. El código fuente de nuestra versión está disponible públicamente."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz te permite programar tus publicaciones entre diferentes canales.\nUn canal es una plataforma de publicación donde puedes programar tus publicaciones.\nPor ejemplo, puedes programar tus publicaciones en X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads y Pinterest.",
+    "to": "Pohst Signal te permite programar publicaciones en muchos canales desde un solo lugar. Un canal es una plataforma donde se publican tus contenidos, por ejemplo Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode y Tumblr."
+   }
+  },
+  "fr": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Rejoignez plus de 10 000 entrepreneurs qui utilisent Postiz",
+    "to": "Rejoignez les créateurs et les équipes qui publient avec Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz pour développer leur présence sur les réseaux sociaux",
+    "to": "Pohst Signal : touchez votre audience au-delà des réseaux sociaux"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Vais-je être facturé par Postiz ?",
+    "to": "Pohst Signal va-t-il me facturer ?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Pour confirmer les informations de carte de crédit, Postiz retiendra 2 $ et les libérera immédiatement. Vous pouvez annuler votre abonnement à tout moment depuis les paramètres, sans avoir à parler à quelqu'un.",
+    "to": "Votre essai gratuit de 7 jours commence lors de l’abonnement et vous ne serez facturé qu’à la fin de celui-ci. Pour vérifier votre carte, une retenue temporaire de 2 USD est effectuée puis libérée immédiatement. Vous pouvez résilier à tout moment depuis les Paramètres."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Puis-je faire confiance à Postiz ?",
+    "to": "Puis-je faire confiance à Pohst Signal ?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz est fièrement open source ! Nous croyons en une culture éthique et transparente, ce qui signifie que Postiz existera toujours. Vous pouvez consulter l'intégralité du code ou l'utiliser pour des projets personnels. Pour voir le dépôt open source, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">cliquez ici</a>.",
+    "to": "Pohst Signal est basé sur Postiz, un logiciel open source sous licence AGPL-3.0. Le code source de notre version est accessible publiquement."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz vous permet de planifier vos publications sur différents canaux.\nUn canal est une plateforme de publication où vous pouvez programmer vos publications.\nPar exemple, vous pouvez planifier vos publications sur X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads et Pinterest.",
+    "to": "Pohst Signal vous permet de programmer vos publications sur de nombreux canaux depuis un seul endroit. Un canal est une plateforme sur laquelle vos publications sont diffusées, par exemple Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode et Tumblr."
+   }
+  },
+  "he": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "הצטרפו ל-10,000+ יזמים שמשתמשים ב-Postiz",
+    "to": "הצטרפו ליוצרים ולצוותים שמפרסמים עם Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz כדי להגדיל את הנוכחות החברתית שלהם",
+    "to": "Pohst Signal: הגיעו לקהל שלכם מעבר לרשתות החברתיות"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "האם אחויב על ידי Postiz?",
+    "to": "האם Pohst Signal יחייב אותי?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "כדי לאמת את פרטי כרטיס האשראי, פוסטיז תחזיק בסכום של 2$ ותשחרר אותו מיד. ניתן לבטל את המנוי בכל עת מההגדרות מבלי לדבר עם נציג.",
+    "to": "תקופת הניסיון החינמית של 7 ימים מתחילה עם ההרשמה למנוי, ולא תחויבו עד לסיומה. לאימות הכרטיס מתבצעת תפיסת מסגרת זמנית של 2 דולר שמשוחררת מיד. ניתן לבטל בכל עת דרך ההגדרות."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "האם אפשר לסמוך על Postiz?",
+    "to": "האם אפשר לסמוך על Pohst Signal?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz היא קוד פתוח בגאווה! אנו מאמינים בתרבות אתית ושקופה, מה שאומר ש-Postiz תמשיך להתקיים לנצח. אתם יכולים לעיין בכל הקוד או להשתמש בו לפרויקטים אישיים. לצפייה במאגר הקוד הפתוח, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">לחצו כאן</a>.",
+    "to": "Pohst Signal מבוסס על Postiz, תוכנת קוד פתוח ברישיון AGPL-3.0. קוד המקור של הגרסה שלנו זמין לציבור."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz מאפשרת לכם לתזמן פוסטים בין ערוצים שונים.\nערוץ הוא פלטפורמת פרסום שבה ניתן לתזמן את הפוסטים שלכם.\nלדוגמה, תוכלו לתזמן פוסטים ב-X, פייסבוק, אינסטגרם, טיקטוק, יוטיוב, רדיט, לינקדאין, Dribbble, Threads ופינטרסט.",
+    "to": "Pohst Signal מאפשר לתזמן פוסטים בערוצים רבים ממקום אחד. ערוץ הוא פלטפורמה שבה הפוסטים שלכם מתפרסמים, לדוגמה Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode ו-Tumblr."
+   }
+  },
+  "it": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Unisciti a oltre 10.000 imprenditori che usano Postiz",
+    "to": "Unisciti a creator e team che pubblicano con Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz per far crescere la loro presenza sui social",
+    "to": "Pohst Signal: raggiungi il tuo pubblico oltre i social media"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Mi verrà addebitato qualcosa da Postiz?",
+    "to": "Pohst Signal mi addebiterà qualcosa?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Per confermare le informazioni della carta di credito, Postiz tratterrà 2$ e li rilascerà immediatamente. Puoi annullare l'abbonamento in qualsiasi momento dalle impostazioni senza parlare con nessuno.",
+    "to": "La tua prova gratuita di 7 giorni inizia con l’abbonamento e non ti verrà addebitato nulla fino al suo termine. Per verificare la carta viene applicata una trattenuta temporanea di 2 USD, rilasciata immediatamente. Puoi annullare in qualsiasi momento dalle Impostazioni."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Posso fidarmi di Postiz?",
+    "to": "Posso fidarmi di Pohst Signal?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz è orgogliosamente open-source! Crediamo in una cultura etica e trasparente, il che significa che Postiz vivrà per sempre. Puoi consultare tutto il codice o usarlo per progetti personali. Per visualizzare il repository open-source, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">clicca qui</a>.",
+    "to": "Pohst Signal è basato su Postiz, un software open source con licenza AGPL-3.0. Il codice sorgente della nostra versione è disponibile pubblicamente."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz ti permette di programmare i tuoi post su diversi canali.\nUn canale è una piattaforma di pubblicazione dove puoi programmare i tuoi post.\nAd esempio, puoi programmare i tuoi post su X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads e Pinterest.",
+    "to": "Pohst Signal ti permette di programmare i post su molti canali da un unico posto. Un canale è una piattaforma su cui vengono pubblicati i tuoi post, ad esempio Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode e Tumblr."
+   }
+  },
+  "ja": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Postizを利用している10,000人以上の起業家に参加しましょう",
+    "to": "Pohst Signal で発信するクリエイターやチームに参加しましょう"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postizでソーシャルプレゼンスを成長させる",
+    "to": "Pohst Signal：ソーシャルメディアの枠を超えてオーディエンスに届けましょう"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Postizから料金が請求されますか？",
+    "to": "Pohst Signal から料金が請求されますか？"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "クレジットカード情報を確認するために、Postizは2ドルを一時的に保持し、すぐに返金します。設定からいつでも人と話すことなくサブスクリプションをキャンセルできます。",
+    "to": "7日間の無料トライアルはご契約時に開始され、終了するまで料金は発生しません。カード確認のため、2 USD が一時的に保留され、すぐに解除されます。設定からいつでも解約できます。"
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Postizは信頼できますか？",
+    "to": "Pohst Signal は信頼できますか？"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postizは誇りを持ってオープンソースです！私たちは倫理的で透明性のある文化を信じており、Postizは永遠に存続します。全てのコードを確認したり、個人プロジェクトで利用したりできます。オープンソースリポジトリを見るには、<a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">こちらをクリック</a>してください。",
+    "to": "Pohst Signal は、AGPL-3.0 ライセンスのオープンソースソフトウェアである Postiz をベースに構築されています。当社バージョンのソースコードは公開されています。"
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postizでは、さまざまなチャンネル間で投稿のスケジューリングが可能です。\nチャンネルとは、投稿をスケジュールできる配信プラットフォームのことです。\n例えば、X、Facebook、Instagram、TikTok、YouTube、Reddit、Linkedin、Dribbble、Threads、Pinterestなどで投稿をスケジュールできます。",
+    "to": "Pohst Signal を使えば、ひとつの場所から複数のチャンネルへの投稿を予約できます。チャンネルとは投稿が公開されるプラットフォームのことで、例えば Reddit、Discord、Telegram、Slack、WordPress、Medium、Dev.to、Hashnode、Tumblr などがあります。"
+   }
+  },
+  "ka_ge": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "შეუერთდით 10,000+ მეწარმეს, ვინც იყენებს Postiz-ს",
+    "to": "შეუერთდით შემქმნელებსა და გუნდებს, რომლებიც Pohst Signal-ით აქვეყნებენ"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Postiz დამაკისრებს თანხას?",
+    "to": "Pohst Signal ჩამომაჭრის თანხას?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "საკრედიტო ბარათის დადასტურებისთვის Postiz დროებით დაბლოკავს $2-ს და მაშინვე გაათავისუფლებს",
+    "to": "თქვენი 7-დღიანი უფასო საცდელი პერიოდი იწყება გამოწერისთანავე და მის დასრულებამდე თანხა არ ჩამოგეჭრებათ. ბარათის დასადასტურებლად დროებით იბლოკება 2 აშშ დოლარი, რომელიც მაშინვე თავისუფლდება. გამოწერის გაუქმება ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Შემიძლია ვენდო Postiz-ს?",
+    "to": "შემიძლია ვენდო Pohst Signal-ს?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz არის ღია კოდის! გამჭვირვალე კულტურა — შეგიძლიათ ნახოთ მთელი კოდი ან გამოიყენოთ პირადი პროექტებისთვის. ღია რეპოზიტორიის სანახავად <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">დააჭირეთ აქ</a>.",
+    "to": "Pohst Signal შექმნილია Postiz-ის ბაზაზე, რომელიც AGPL-3.0 ლიცენზიით გავრცელებული ღია კოდის პროგრამაა. ჩვენი ვერსიის საწყისი კოდი საჯაროდ ხელმისაწვდომია."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz გაძლევთ პოსტების დაგეგმვის საშუალებას სხვადასხვა არხებზე — მაგალითად X, Facebook, Instagram, TikTok, YouTube, Reddit, LinkedIn, Dribbble, Threads და Pinterest.",
+    "to": "Pohst Signal გაძლევთ საშუალებას, ერთი ადგილიდან დაგეგმოთ პოსტები მრავალ არხზე. არხი არის პლატფორმა, სადაც თქვენი პოსტები ქვეყნდება, მაგალითად Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode და Tumblr."
+   }
+  },
+  "ko": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Postiz를 사용하는 10,000명 이상의 창업가들과 함께하세요",
+    "to": "Pohst Signal로 콘텐츠를 게시하는 크리에이터와 팀에 합류하세요"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz로 소셜 존재감을 키우세요",
+    "to": "Pohst Signal: 소셜 미디어를 넘어 더 많은 사람에게 다가가세요"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Postiz에서 요금이 청구되나요?",
+    "to": "Pohst Signal에서 요금이 청구되나요?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "신용카드 정보를 확인하기 위해 Postiz는 $2를 보류했다가 즉시 해제합니다. 설정에서 언제든지 사람과 대화하지 않고 구독을 취소할 수 있습니다.",
+    "to": "7일 무료 체험은 구독 시 시작되며, 체험이 끝날 때까지 요금이 청구되지 않습니다. 카드 확인을 위해 2 USD가 일시적으로 보류되었다가 즉시 해제됩니다. 설정에서 언제든지 구독을 취소할 수 있습니다."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Postiz를 신뢰할 수 있나요?",
+    "to": "Pohst Signal을 믿을 수 있나요?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz는 자랑스럽게 오픈소스입니다! 우리는 윤리적이고 투명한 문화를 믿으며, Postiz는 영원히 존재할 것입니다. 전체 코드를 확인하거나 개인 프로젝트에 사용할 수 있습니다. 오픈소스 저장소를 보려면 <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">여기를 클릭하세요</a>.",
+    "to": "Pohst Signal은 AGPL-3.0 라이선스의 오픈 소스 소프트웨어인 Postiz를 기반으로 만들어졌습니다. 저희 버전의 소스 코드는 공개되어 있습니다."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz를 통해 다양한 채널에 게시물을 예약할 수 있습니다.\n채널은 게시물을 예약할 수 있는 게시 플랫폼입니다.\n예를 들어, X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads, Pinterest에 게시물을 예약할 수 있습니다.",
+    "to": "Pohst Signal을 사용하면 한곳에서 여러 채널에 게시물을 예약할 수 있습니다. 채널은 게시물이 게시되는 플랫폼으로, 예를 들어 Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode, Tumblr 등이 있습니다."
+   }
+  },
+  "pt": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Junte-se a mais de 10.000 empreendedores que usam o Postiz",
+    "to": "Junte-se a criadores e equipes que publicam com o Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz para aumentar sua presença social",
+    "to": "Pohst Signal: alcance seu público além das redes sociais"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Vou ser cobrado pelo Postiz?",
+    "to": "Vou ser cobrado pelo Pohst Signal?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Para confirmar as informações do cartão de crédito, a Postiz irá reter R$2 e liberá-lo imediatamente. Você pode cancelar sua assinatura a qualquer momento nas configurações, sem precisar falar com ninguém.",
+    "to": "Seu teste gratuito de 7 dias começa quando você assina, e você não será cobrado até que ele termine. Para confirmar seu cartão, é feita uma retenção temporária de 2 USD, liberada imediatamente. Você pode cancelar a qualquer momento nas Configurações."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Posso confiar no Postiz?",
+    "to": "Posso confiar no Pohst Signal?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "O Postiz é orgulhosamente open-source! Acreditamos em uma cultura ética e transparente, o que significa que o Postiz viverá para sempre. Você pode conferir todo o código ou usá-lo em projetos pessoais. Para ver o repositório open-source, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">clique aqui</a>.",
+    "to": "O Pohst Signal é baseado no Postiz, um software de código aberto licenciado sob AGPL-3.0. O código-fonte da nossa versão está disponível publicamente."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "O Postiz permite que você agende suas publicações entre diferentes canais.\nUm canal é uma plataforma de publicação onde você pode agendar seus posts.\nPor exemplo, você pode agendar suas publicações no X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads e Pinterest.",
+    "to": "O Pohst Signal permite agendar publicações em vários canais a partir de um só lugar. Um canal é uma plataforma onde suas publicações são feitas, por exemplo Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode e Tumblr."
+   }
+  },
+  "ru": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Присоединяйтесь к 10 000+ предпринимателей, которые используют Postiz",
+    "to": "Присоединяйтесь к авторам и командам, которые публикуют с Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz для роста своей социальной активности",
+    "to": "Pohst Signal: охватывайте аудиторию за пределами соцсетей"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Будет ли с меня взиматься плата Postiz?",
+    "to": "Будет ли Pohst Signal списывать с меня деньги?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Для подтверждения информации о кредитной карте Postiz временно удержит $2 и сразу же их вернет. Вы можете отменить подписку в любое время через настройки без необходимости разговаривать с оператором.",
+    "to": "Ваш 7-дневный бесплатный пробный период начинается с момента оформления подписки, и до его окончания плата не взимается. Для подтверждения карты временно блокируется 2 USD, которые сразу же возвращаются. Отменить подписку можно в любой момент в Настройках."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Можно ли доверять Postiz?",
+    "to": "Можно ли доверять Pohst Signal?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz — это полностью open-source! Мы верим в этичную и прозрачную культуру, а значит, Postiz будет существовать всегда. Вы можете ознакомиться с полным кодом или использовать его для личных проектов. Чтобы просмотреть open-source репозиторий, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">нажмите здесь</a>.",
+    "to": "Pohst Signal основан на Postiz — программном обеспечении с открытым исходным кодом под лицензией AGPL-3.0. Исходный код нашей версии находится в открытом доступе."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz позволяет планировать публикации между разными каналами.\nКанал — это платформа для публикаций, где вы можете планировать свои посты.\nНапример, вы можете планировать публикации в X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads и Pinterest.",
+    "to": "Pohst Signal позволяет планировать публикации сразу в нескольких каналах из одного места. Канал — это платформа, на которой публикуются ваши посты, например Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode и Tumblr."
+   }
+  },
+  "tr": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Postiz kullanan 10.000+ girişimciye katılın",
+    "to": "Pohst Signal ile yayın yapan içerik üreticilerine ve ekiplere katılın"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Sosyal Varlıklarını Büyütmek İçin Postiz",
+    "to": "Pohst Signal: Kitlenize sosyal medyanın ötesinde ulaşın"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Postiz tarafından ücretlendirilecek miyim?",
+    "to": "Pohst Signal benden ücret alacak mı?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Kredi kartı bilgilerini doğrulamak için Postiz $2 tutacak ve hemen serbest bırakacaktır, ayarlarından herhangi bir kişiyle konuşmadan aboneliğinizi istediğiniz zaman iptal edebilirsiniz.",
+    "to": "7 günlük ücretsiz deneme süreniz abone olduğunuzda başlar ve süre bitene kadar sizden ücret alınmaz. Kartınızı doğrulamak için geçici olarak 2 USD bloke edilir ve hemen serbest bırakılır. Aboneliğinizi istediğiniz zaman Ayarlar bölümünden iptal edebilirsiniz."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Postiz'e güvenebilir miyim?",
+    "to": "Pohst Signal güvenilir mi?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz gururla açık kaynaklıdır! Etik ve şeffaf bir kültüre inanıyoruz, bu da Postiz'in sonsuza dek yaşayacağı anlamına gelir. Tüm kodu inceleyebilir veya kişisel projelerinizde kullanabilirsiniz. Açık kaynak deposunu görüntülemek için <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">buraya tıklayın</a>.",
+    "to": "Pohst Signal, AGPL-3.0 lisansına sahip açık kaynaklı bir yazılım olan Postiz üzerine kuruludur. Sürümümüzün kaynak kodu herkese açıktır."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz, gönderilerinizi farklı kanallar arasında zamanlamanızı sağlar.\nKanal, gönderilerinizi zamanlayabileceğiniz bir paylaşım platformudur.\nÖrneğin, gönderilerinizi X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads ve Pinterest'te zamanlayabilirsiniz.",
+    "to": "Pohst Signal, gönderilerinizi tek bir yerden birçok kanalda planlamanızı sağlar. Kanal, gönderilerinizin yayımlandığı bir platformdur; örneğin Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode ve Tumblr."
+   }
+  },
+  "vi": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "Tham gia cùng hơn 10.000 doanh nhân đang sử dụng Postiz",
+    "to": "Tham gia cùng các nhà sáng tạo và đội nhóm đang đăng bài với Pohst Signal"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz để phát triển sự hiện diện trên mạng xã hội của họ",
+    "to": "Pohst Signal: Tiếp cận khán giả vượt ra ngoài mạng xã hội"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "Tôi có bị Postiz tính phí không?",
+    "to": "Pohst Signal có tính phí tôi không?"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "Để xác nhận thông tin thẻ tín dụng, Postiz sẽ giữ $2 và hoàn trả ngay lập tức, bạn có thể hủy đăng ký bất cứ lúc nào trong phần cài đặt mà không cần nói chuyện với ai",
+    "to": "Thời gian dùng thử miễn phí 7 ngày bắt đầu khi bạn đăng ký và bạn sẽ không bị tính phí cho đến khi kết thúc. Để xác minh thẻ, một khoản tạm giữ 2 USD sẽ được áp dụng và hoàn lại ngay lập tức. Bạn có thể hủy bất cứ lúc nào trong phần Cài đặt."
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "Tôi có thể tin tưởng Postiz không?",
+    "to": "Tôi có thể tin tưởng Pohst Signal không?"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz tự hào là mã nguồn mở! Chúng tôi tin vào một văn hóa đạo đức và minh bạch, nghĩa là Postiz sẽ tồn tại mãi mãi. Bạn có thể xem toàn bộ mã nguồn hoặc sử dụng cho các dự án cá nhân. Để xem kho mã nguồn mở, <a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">bấm vào đây</a>.",
+    "to": "Pohst Signal được xây dựng trên Postiz, một phần mềm mã nguồn mở theo giấy phép AGPL-3.0. Mã nguồn phiên bản của chúng tôi được công khai."
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz cho phép bạn lên lịch đăng bài trên các kênh khác nhau.\nMột kênh là một nền tảng xuất bản nơi bạn có thể lên lịch đăng bài.\nVí dụ, bạn có thể lên lịch đăng bài trên X, Facebook, Instagram, TikTok, YouTube, Reddit, Linkedin, Dribbble, Threads và Pinterest.",
+    "to": "Pohst Signal cho phép bạn lên lịch đăng bài trên nhiều kênh từ một nơi duy nhất. Kênh là nền tảng nơi bài viết của bạn được đăng, ví dụ Reddit, Discord, Telegram, Slack, WordPress, Medium, Dev.to, Hashnode và Tumblr."
+   }
+  },
+  "zh": {
+   "join_10000_entrepreneurs_who_use_postiz": {
+    "from": "加入超过10,000名使用Postiz的创业者",
+    "to": "加入使用 Pohst Signal 发布内容的创作者和团队"
+   },
+   "billing_postiz_grow_social": {
+    "from": "Postiz来提升他们的社交影响力",
+    "to": "Pohst Signal：让您的内容触达社交媒体之外的受众"
+   },
+   "faq_am_i_going_to_be_charged_by_postiz": {
+    "from": "我会被 Postiz 收费吗？",
+    "to": "Pohst Signal 会向我收费吗？"
+   },
+   "faq_to_confirm_credit_card_information_postiz_will_hold": {
+    "from": "为确认信用卡信息，Postiz将暂时预授权2美元并立即释放，您可以随时在设置中取消订阅，无需与任何人交流。",
+    "to": "您的 7 天免费试用期从订阅时开始，试用结束前不会收取任何费用。为验证您的银行卡，系统会临时冻结 2 美元并立即释放。您可以随时在设置中取消订阅。"
+   },
+   "faq_can_i_trust_postiz_gitroom": {
+    "from": "我可以信任Postiz吗？",
+    "to": "我可以信任 Pohst Signal 吗？"
+   },
+   "faq_postiz_gitroom_is_proudly_open_source": {
+    "from": "Postiz自豪地开源！我们相信道德和透明的文化，这意味着Postiz将永远存在。您可以查看全部代码或将其用于个人项目。要查看开源仓库，<a href=\"https://github.com/gitroomhq/postiz-app\" target=\"_blank\" style=\"text-decoration: underline;\">请点击这里</a>。",
+    "to": "Pohst Signal 基于 Postiz 构建，这是一款采用 AGPL-3.0 许可证的开源软件。我们所用版本的源代码已公开。"
+   },
+   "faq_postiz_gitroom_allows_you_to_schedule_posts": {
+    "from": "Postiz允许您在不同频道之间安排您的帖子。\n频道是一个发布平台，您可以在上面安排您的帖子。\n例如，您可以在X、Facebook、Instagram、TikTok、YouTube、Reddit、Linkedin、Dribbble、Threads和Pinterest上安排您的帖子。",
+    "to": "Pohst Signal 让您在一个地方安排多个渠道的帖子发布。渠道是发布您内容的平台，例如 Reddit、Discord、Telegram、Slack、WordPress、Medium、Dev.to、Hashnode 和 Tumblr。"
+   }
+  }
+ }
+}

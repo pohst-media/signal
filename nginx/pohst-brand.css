@@ -1,0 +1,74 @@
+/* Pohst Signal branding overrides */
+
+/* ---------- Logos ---------- */
+
+/* Sign-in / auth page wordmark (Postiz LogoTextComponent, 101x33) */
+svg[viewBox="0 0 101 33"] {
+  width: 202px;
+  height: 66px;
+  background: url('/pohst-branding/logo-signal.svg?v=2') no-repeat left center / contain;
+}
+svg[viewBox="0 0 101 33"] > * {
+  display: none;
+}
+
+/* Sidebar icon (Postiz new-layout Logo, 60x60) */
+svg[viewBox="0 0 60 60"][class*="min-w-[60px]"] {
+  background: url('/pohst-branding/icon-signal.svg') no-repeat center / contain;
+}
+svg[viewBox="0 0 60 60"][class*="min-w-[60px]"] > * {
+  display: none;
+}
+
+/* ---------- Hidden features (not offered in Pohst Signal) ---------- */
+
+/* Sidebar: Analytics and Plugs (only support channels Signal doesn't offer) */
+a[href="/analytics"],
+a[href="/plugs"] {
+  display: none !important;
+}
+
+/* Sidebar: Postiz UGC and Affiliate links */
+button[title="UGC"],
+a[href*="affiliate.postiz.com"] {
+  display: none !important;
+}
+
+/* Design Media button (Polotno, requires paid licence) - Agent and post editor */
+div.cursor-pointer:has(g[clip-path="url(#clip0_designmedia)"]) {
+  display: none !important;
+}
+
+/* ---------- Login / register: Google + Wallet buttons ---------- */
+
+/* Button row (anchored on Google logo's yellow path) */
+div[class="gap-[8px] flex"]:has(path[fill="#FFC107"]) {
+  display: none !important;
+}
+
+/* "Continue With" label above that row */
+div[class="text-[14px] mt-[32px] mb-[12px]"]:has(+ div div[class="gap-[8px] flex"] path[fill="#FFC107"]) {
+  display: none !important;
+}
+
+/* "OR" divider directly after that row */
+div[class="gap-[8px] flex"]:has(path[fill="#FFC107"]) + div[class="h-[20px] mb-[24px] mt-[24px] relative"] {
+  display: none !important;
+}
+
+/* ---------- Header: Postiz Chrome extension link ---------- */
+a[href*="chromewebstore.google.com"] {
+  display: none !important;
+}
+
+/* ---------- Auth page: replace Postiz testimonial panel with Pohst Signal artwork ---------- */
+/* Column keeps Postiz's own responsive rule (shown on large screens only) */
+div[class*="text-[36px]"][class*="pt-[88px]"][class*="lg:flex"] {
+  background: url('/pohst-branding/auth-panel.png?v=1') no-repeat center / contain;
+  background-origin: content-box;
+  padding: 40px !important;
+}
+/* Hide the "20,000+ users" headline and testimonials inside it */
+div[class*="text-[36px]"][class*="pt-[88px]"][class*="lg:flex"] > * {
+  display: none !important;
+}

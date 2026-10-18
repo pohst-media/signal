@@ -1,0 +1,11 @@
+111:    proxy_hide_header Cache-Control;
+112:    add_header Cache-Control "public, max-age=3600" always;
+146:        sub_filter '</head>' '<link rel="stylesheet" href="/pohst-branding/pohst-brand.css?v=7"></head>';
+147:        sub_filter '<title>Postiz ' '<title>Pohst Signal ';
+148:        sub_filter '\\"children\\":\\"Postiz ' '\\"children\\":\\"Pohst Signal ';
+149:        sub_filter '"children":"Postiz ' '"children":"Pohst Signal ';
+150:        sub_filter 'https://plausible.io/js/script.js' '/pohst-branding/noop.js';
+151:        sub_filter '\\"dub\\":true' '\\"dub\\":false';
+152:        sub_filter '"dub":true' '"dub":false';
+153:        sub_filter_once off;
+154:        sub_filter_types text/x-component;
