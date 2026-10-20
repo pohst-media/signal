@@ -299,6 +299,32 @@ def patch_text(content):
         content = content.replace('?"Postiz":"Gitroom"', '?"Pohst":"Gitroom"')
         changes.append("display name ?\"Postiz\" -> ?\"Pohst\" x{}".format(n))
 
+    # v2.25+: display name has a leading space inside the quotes
+    n = content.count('?" Postiz":" Gitroom"')
+    if n:
+        content = content.replace('?" Postiz":" Gitroom"', '?" Pohst":" Gitroom"')
+        changes.append("display name ?\" Postiz\" -> ?\" Pohst\" x{}".format(n))
+
+    # v2.25+: MCP client config snippets use "postiz" as the server label
+    import re as _re
+    for _pat, _rep in [
+        (r':\{postiz:\{', ':{pohst:{'),
+        (r'\(\{postiz:\{', '({pohst:{'),
+        (r'((?:mcp add(?: --transport http)?|mcp login|--name) )postiz\b', r'\1pohst'),
+        (r'mcp_servers\.postiz\]', 'mcp_servers.pohst]'),
+        (r'(mcp_servers:(?:\\n|\n)[ ]*)postiz:', r'\1pohst:'),
+    ]:
+        content, n = _re.subn(_pat, _rep, content)
+        if n:
+            changes.append("MCP label {} x{}".format(_pat, n))
+
+    # Pohst: hide the "Official connector" tab (Postiz Cloud relay); "Sign in with Pohst" becomes default
+    _old = '["official","oauth","apikey"]'
+    n = content.count(_old)
+    if n:
+        content = content.replace(_old, '["oauth","apikey"]')
+        changes.append("hide Official connector tab x{}".format(n))
+
     content, n, samples = brand_swap(content)
     if n:
         changes.append("interface text -> {} in {} place(s)".format(BRAND_TO, n))

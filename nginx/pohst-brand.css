@@ -62,6 +62,7 @@ a[href*="chromewebstore.google.com"] {
 }
 
 /* ---------- Auth page: replace Postiz testimonial panel with Pohst Signal artwork ---------- */
+
 /* Column keeps Postiz's own responsive rule (shown on large screens only) */
 div[class*="text-[36px]"][class*="pt-[88px]"][class*="lg:flex"] {
   background: url('/pohst-branding/auth-panel.png?v=1') no-repeat center / contain;
@@ -70,5 +71,38 @@ div[class*="text-[36px]"][class*="pt-[88px]"][class*="lg:flex"] {
 }
 /* Hide the "20,000+ users" headline and testimonials inside it */
 div[class*="text-[36px]"][class*="pt-[88px]"][class*="lg:flex"] > * {
+  display: none !important;
+}
+/* v2.25: hide "Make UGC" sidebar item */
+a:has(#agent_media_mask),
+button:has(#agent_media_mask),
+[role="button"]:has(#agent_media_mask) {
+  display: none !important;
+}
+/* v2.25: hide "Make UGC" sidebar item */
+a:has(#agent_media_mask),
+button:has(#agent_media_mask),
+[role="button"]:has(#agent_media_mask) {
+  display: none !important;
+}
+
+/* v2.25 Agents page: hide links to Postiz docs, packages and directory listings */
+a[href*="docs.postiz.com"],
+a[href*="n8n-nodes-postiz"],
+a[href*="claude.ai/directory/postiz"],
+a[href*="cursor.com/marketplace/postiz"],
+a[href*="chatgpt.com"][href*="postiz"],
+a[href*="grok"][href*="postiz"] {
+  display: none !important;
+}
+
+/* v2.25 Agents page: Postiz's ChatGPT and Grok app listings */
+a[href*="chatgpt.com/plugins/plugin_asdk_app_6aaaf1a529808191a2a15fde824bb013"],
+a[href*="x.ai/bot/plugin/58737848"] {
+  display: none !important;
+}
+
+/* v2.25 Agents page: hide Grok Bot client (installs the Postiz CLI) */
+button:has(svg[viewBox="-15 -15 259 259"]) {
   display: none !important;
 }
