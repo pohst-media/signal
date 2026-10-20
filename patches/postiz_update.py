@@ -50,6 +50,14 @@ POSTS_LIMITS = {
     'ULTIMATE': 2000,
 }
 
+# Pohst Signal plan values per tier (prices USD, channels, AI images, features)
+TIER_VALUES = {
+    'STANDARD': {'month_price': 9,  'year_price': 84,  'channel': 3,   'image_generation_count': 20,  'image_generator': True, 'autoPost': True},
+    'TEAM':     {'month_price': 15, 'year_price': 144, 'channel': 15,  'image_generation_count': 50,  'image_generator': True, 'autoPost': True},
+    'PRO':      {'month_price': 39, 'year_price': 372, 'channel': 45,  'image_generation_count': 100, 'image_generator': True, 'autoPost': True},
+    'ULTIMATE': {'month_price': 79, 'year_price': 756, 'channel': 150, 'image_generation_count': 200, 'image_generator': True, 'autoPost': True},
+}
+
 BRAND_FROM = 'Postiz'
 BRAND_TO = 'Pohst'
 OLD_BRAND = 'Pohst Signal'        # earlier rebrand, migrated to BRAND_TO
@@ -168,6 +176,29 @@ def patch_pricing(content):
     for tier, limit in POSTS_LIMITS.items():
         if int(locate_tier_value(content, tier).group(1)) != limit:
             raise ValueError("verification failed for {}".format(tier))
+
+    # Pohst: prices, channels, AI images and RSS - each value changed only inside its own tier block
+    def _fmt(v):
+        return ('true' if v else 'false') if isinstance(v, bool) else str(v)
+    for _verify in (False, True):
+        for tier, fields in TIER_VALUES.items():
+            tm = re.search(TIER_KEY.format(tier), content)
+            if not tm:
+                raise ValueError("tier {} not found".format(tier))
+            nxt = ANY_TIER_KEY.search(content, tm.end())
+            end = nxt.start() if nxt else len(content)
+            block = content[tm.end():end]
+            for field, value in fields.items():
+                want = _fmt(value)
+                fm = re.search(r'\b{}\s*:\s*(true|false|\d+)'.format(field), block)
+                if not fm:
+                    raise ValueError("{} not found in tier {}".format(field, tier))
+                if fm.group(1) != want:
+                    if _verify:
+                        raise ValueError("verification failed for {} {}".format(tier, field))
+                    changes.append("{} {}: {} -> {}".format(tier, field, fm.group(1), want))
+                    block = block[:fm.start(1)] + want + block[fm.end(1):]
+            content = content[:tm.end()] + block + content[end:]
     return content, changes
 
 
