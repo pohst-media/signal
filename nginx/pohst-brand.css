@@ -106,3 +106,50 @@ a[href*="x.ai/bot/plugin/58737848"] {
 button:has(svg[viewBox="-15 -15 259 259"]) {
   display: none !important;
 }
+
+/* v2.25 preview page (/p/…): replace the Postiz logo with the Pohst Signal wordmark */
+svg:has(path[d^="M188.176 31.4627"]) > * {
+  display: none !important;
+}
+svg:has(path[d^="M188.176 31.4627"]) {
+  background: url("/pohst-branding/logo-signal.svg") no-repeat left center / contain;
+}
+/* Preview page header: hide the separate square icon (lockup already includes the P) */
+a:has(svg path[d^="M188.176 31.4627"]) > div:has(> img[src="/postiz.svg"]) {
+  display: none !important;
+}
+
+/* Preview page header: give the Pohst Signal lockup room */
+svg:has(path[d^="M188.176 31.4627"]) {
+  width: 170px !important;
+  height: 44px !important;
+  background-size: contain !important;
+  background-position: left center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Avatars with no image: hide alt text, show faded Pohst icon */
+img.aspect-square.rounded-full:not([src]),
+img.aspect-square.rounded-full[src=""] {
+  color: transparent !important;
+  font-size: 0 !important;
+  overflow: hidden !important;
+  background-image: url("/pohst-branding/Postiz-favicon512x512.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  opacity: 1;
+}
+
+/* Avatars with no image: hide alt text, show faded Pohst icon */
+img.aspect-square.rounded-full:not([src]),
+img.aspect-square.rounded-full[src=""] {
+  color: transparent !important;
+  font-size: 0 !important;
+  overflow: hidden !important;
+  background-image: url("/pohst-branding/Postiz-favicon512x512.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  opacity: 1;
+}

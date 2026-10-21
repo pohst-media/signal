@@ -356,6 +356,34 @@ def patch_text(content):
         content = content.replace(_old, '["oauth","apikey"]')
         changes.append("hide Official connector tab x{}".format(n))
 
+    # Pohst: hide the Integrations (HeyGen/Reel.Farm) and Plugs tabs in Settings
+    _old = 'e.push({tab:"integrations",label:S("integrations","Integrations")}),e.push({tab:"plugs",label:S("plugs","Plugs")}),'
+    n = content.count(_old)
+    if n:
+        content = content.replace(_old, '')
+        changes.append("hide Settings tabs Integrations + Plugs x{}".format(n))
+
+    # Pohst: OAuth MCP URL must be /mcp-oauth-dynamic (no /api) to match the advertised OAuth resource
+    content, n = re.subn(r'(\w+)=>`\$\{\1\}/mcp-oauth-dynamic`',
+                         r'\1=>`${\1.replace(/\\/api$/,"")}/mcp-oauth-dynamic`', content)
+    if n:
+        changes.append("MCP OAuth URL without /api x{}".format(n))
+
+    # Pohst: CLI "Locally" step 2 - Postiz Cloud login does not work for Signal; use API URL + key
+    _old = '{label:"Run: postiz auth:login",code:"postiz auth:login"}'
+    _new = '{label:"Connect to Pohst Signal (copy your API key from above)",code:"export POSTIZ_API_URL=https://signal.pohst.app/api\\nexport POSTIZ_API_KEY=your-api-key"}'
+    n = content.count(_old)
+    if n:
+        content = content.replace(_old, _new)
+        changes.append("CLI step 2 -> API URL + key x{}".format(n))
+    # Pohst: CLI "CI / Remote servers" - add the Signal API URL before the key
+    _old = '{label:"Set your API key as an environment variable",code:\'export POSTIZ_API_KEY="{API_KEY}"\'}'
+    _new = '{label:"Set the Pohst Signal address and your API key",code:\'export POSTIZ_API_URL=https://signal.pohst.app/api\\nexport POSTIZ_API_KEY="{API_KEY}"\'}'
+    n = content.count(_old)
+    if n:
+        content = content.replace(_old, _new)
+        changes.append("CLI CI step -> API URL + key x{}".format(n))
+
     content, n, samples = brand_swap(content)
     if n:
         changes.append("interface text -> {} in {} place(s)".format(BRAND_TO, n))
@@ -434,7 +462,7 @@ def main():
     pricing_files = find_pricing_files()
     if not pricing_files:
         error("No pricing.js files found in container")
-    text_files = sorted(grep_files(BRAND_FROM, FRONTEND_DIRS) | grep_files(OLD_BRAND, FRONTEND_DIRS))
+    text_files = sorted(grep_files(BRAND_FROM, FRONTEND_DIRS) | grep_files(OLD_BRAND, FRONTEND_DIRS) | grep_files('e.push({tab:"plugs"', FRONTEND_DIRS) | grep_files('/mcp-oauth-dynamic`', FRONTEND_DIRS))
 
     log("\nPricing files: {}".format(len(pricing_files)), BOLD)
     log("Text files containing '{}': {}".format(BRAND_FROM, len(text_files)), BOLD)
