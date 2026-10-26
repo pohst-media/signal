@@ -3,6 +3,7 @@
 Pohst Signal: Reddit compliance patches (Reddit Responsible Builder Policy).
   1. One subreddit per post   - ArrayMaxSize(1) on RedditSettingsDto.subreddit
   2. No repeat for Reddit     - rejects CreatePostDto when 'inter' is set and any channel is Reddit
+  3. No Reddit comments       - rejects a Reddit channel with more than one value (extra values post as comments)
 Patches backend and orchestrator compiled DTOs.
 
 Usage:
@@ -40,6 +41,19 @@ P2_NEW = (
     '], CreatePostDto.prototype, "posts", void 0);'
 )
 
+# --- Patch 3: no follow-up comments for Reddit (one value per Reddit channel) ---
+P3_OLD = (
+    '    tslib_1.__metadata("design:type", Array)\n'
+    '], CreatePostDto.prototype, "posts", void 0);'
+)
+P3_NEW = (
+    '    (0, class_validator_1.ValidateBy)({ name: "pohstNoRedditComments", validator: { '
+    'validate: (posts) => !(Array.isArray(posts) && posts.some((p) => p && p.settings && p.settings.__type === "reddit" '
+    '&& Array.isArray(p.value) && p.value.length > 1)), '
+    'defaultMessage: () => "Reddit posts are limited to a single post. Follow-up comments are not available for Reddit." } }),\n'
+    + P3_OLD
+)
+
 PATCHES = []
 for app in APPS:
     base = BASE.format(app=app)
@@ -47,6 +61,8 @@ for app in APPS:
                     P1_OLD, P1_NEW, "class_validator_1.ArrayMaxSize)(1"))
     PATCHES.append((f"Reddit no-repeat [{app}]", f"{base}/create.post.dto.js",
                     P2_OLD, P2_NEW, "pohstNoRedditRepeat"))
+    PATCHES.append((f"Reddit no-comments [{app}]", f"{base}/create.post.dto.js",
+                    P3_OLD, P3_NEW, "pohstNoRedditComments"))
 
 APPLY = "--apply" in sys.argv
 
