@@ -40,10 +40,15 @@ docker compose up -d "$@" || { echo "ERROR docker compose up failed"; exit 1; }
 ensure_up
 
 echo "== Applying patches"
-OUT=$( { python3 postiz_update.py --apply; python3 postiz_r2_delete_fix.py --apply; python3 postiz_stripe_match.py --apply; } 2>&1 )
-STATUS=$?
+# Each script's non-zero exit is turned into an ERROR line, so a failure in ANY script is caught.
+OUT=$( {
+  python3 postiz_update.py --apply              || echo "ERROR postiz_update.py exited non-zero"
+  python3 postiz_r2_delete_fix.py --apply       || echo "ERROR postiz_r2_delete_fix.py exited non-zero"
+  python3 postiz_stripe_match.py --apply        || echo "ERROR postiz_stripe_match.py exited non-zero"
+  python3 postiz_reddit_one_subreddit.py --apply || echo "ERROR postiz_reddit_one_subreddit.py exited non-zero"
+} 2>&1 )
 echo "$OUT" | grep -E "OK|WARN|ERROR|Skipped|Pricing files|Text files|rewrote.*\[en\]" | tail -25
-if [ $STATUS -ne 0 ] || grep -q "ERROR" <<<"$OUT"; then
+if grep -q "ERROR" <<<"$OUT"; then
   echo "ERROR A patch script failed - run them manually to see full output"
   exit 1
 fi
@@ -60,5 +65,6 @@ echo "== Verification"
 python3 postiz_update.py | grep -E "Text: .* files OK|Skipped|All files OK"
 python3 postiz_r2_delete_fix.py | grep -E "already patched|will soft-delete"
 python3 postiz_stripe_match.py | grep -E "already patched|by metadata"
+python3 postiz_reddit_one_subreddit.py | grep -E "already patched|not patched"
 docker compose logs postiz 2>&1 | grep -E "Email service provider|Missing environment variable" | tail -2
 echo "== Done. Branding/hiding is handled by nginx + pohst-brand.css (no action needed)."

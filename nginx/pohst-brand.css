@@ -65,7 +65,7 @@ a[href*="chromewebstore.google.com"] {
 
 /* Column keeps Postiz's own responsive rule (shown on large screens only) */
 div[class*="text-[36px]"][class*="pt-[88px]"][class*="lg:flex"] {
-  background: url('/pohst-branding/auth-panel.png?v=1') no-repeat center / contain;
+  background: url('/pohst-branding/auth-panel.jpg?v=1') no-repeat center / contain;
   background-origin: content-box;
   padding: 40px !important;
 }
